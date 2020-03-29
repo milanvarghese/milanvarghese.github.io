@@ -1,0 +1,29 @@
+body {
+    font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #333;
+}
+
+#navigation .topbar {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0 3px;
+    height: auto;
+    transition: height 0.6s linear; 
+}
+#navigation .topbar.black {
+    color: #fff;
+    background-color: #222;
+}
+#navigation .topbar h4 {
+    font-size: 0.71rem;
+    font-weight: 400;
+    line-height: 0.71rem;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+
+}
